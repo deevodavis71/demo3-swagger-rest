@@ -21,4 +21,15 @@ public class HelloWorldController
 
         return g;
     }
+
+    @RequestMapping (method = RequestMethod.GET, value = "/helloUniverse")
+    public Greeting helloUniverse ()
+    {
+        Greeting g = new Greeting ();
+        g.setGreeting ("Hello Universe greeting from Branch 4!");
+
+        // Some new changes
+
+        return g;
+    }
 }
