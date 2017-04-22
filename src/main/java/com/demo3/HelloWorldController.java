@@ -16,7 +16,7 @@ public class HelloWorldController {
     public Greeting helloWorld ()
     {
         Greeting g = new Greeting();
-        g.setGreeting("Hello greeting!");
+        g.setGreeting("Hello World greeting!");
 
         return g;
     }
