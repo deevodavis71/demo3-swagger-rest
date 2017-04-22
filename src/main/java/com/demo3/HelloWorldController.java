@@ -18,6 +18,8 @@ public class HelloWorldController {
         Greeting g = new Greeting();
         g.setGreeting("Hello World greeting from Branch 4!");
 
+        // Some new changes
+
         return g;
     }
 }
