@@ -14,6 +14,6 @@ public class Greeting
 
     public void setGreeting (String greeting)
     {
-        this.greeting = greeting;
+        this.greeting = greeting; // Greet
     }
 }
