@@ -32,4 +32,10 @@ public class HelloWorldController
 
         return g;
     }
+    
+    @RequestMapping (method = RequestMethod.GET, value = "/age")
+    public int getAge ()
+    {
+    	return 42;
+    }
 }
